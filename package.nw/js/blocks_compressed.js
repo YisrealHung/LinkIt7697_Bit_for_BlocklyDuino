@@ -700,7 +700,7 @@ Blockly.Blocks.mooncar_move_motor={init:function(){
   this.appendValueInput("SPEED_R")
       .setCheck("Number");
   this.appendDummyInput()
-      .appendField("(0~255)");
+      .appendField("(-255~255)");
   this.setInputsInline(!0);
   this.setPreviousStatement(!0,null);
   this.setNextStatement(!0,null);
