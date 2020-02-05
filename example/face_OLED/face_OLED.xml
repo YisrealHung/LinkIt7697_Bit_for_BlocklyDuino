@@ -1,0 +1,134 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="initializes_setup" id="1" x="80" y="40">
+    <next>
+      <block type="initializes_loop" id="2">
+        <statement name="CONTENT">
+          <block type="mooncar_face_show" id="42">
+            <field name="FACE_SHOW">F1</field>
+            <next>
+              <block type="delay_custom" id="59" inline="false">
+                <value name="DELAY_TIME">
+                  <block type="math_number" id="60">
+                    <field name="NUM">1000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="mooncar_face_show" id="62">
+                    <field name="FACE_SHOW">F2</field>
+                    <next>
+                      <block type="delay_custom" id="63" inline="false">
+                        <value name="DELAY_TIME">
+                          <block type="math_number" id="64">
+                            <field name="NUM">1000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="mooncar_face_show" id="66">
+                            <field name="FACE_SHOW">F3</field>
+                            <next>
+                              <block type="delay_custom" id="67" inline="false">
+                                <value name="DELAY_TIME">
+                                  <block type="math_number" id="68">
+                                    <field name="NUM">1000</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="mooncar_face_show" id="69">
+                                    <field name="FACE_SHOW">F4</field>
+                                    <next>
+                                      <block type="delay_custom" id="70" inline="false">
+                                        <value name="DELAY_TIME">
+                                          <block type="math_number" id="71">
+                                            <field name="NUM">1000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="mooncar_face_show" id="73">
+                                            <field name="FACE_SHOW">F5</field>
+                                            <next>
+                                              <block type="delay_custom" id="74" inline="false">
+                                                <value name="DELAY_TIME">
+                                                  <block type="math_number" id="75">
+                                                    <field name="NUM">1000</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="mooncar_face_show" id="76">
+                                                    <field name="FACE_SHOW">F6</field>
+                                                    <next>
+                                                      <block type="delay_custom" id="77" inline="false">
+                                                        <value name="DELAY_TIME">
+                                                          <block type="math_number" id="78">
+                                                            <field name="NUM">1000</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="mooncar_face_show" id="79">
+                                                            <field name="FACE_SHOW">F7</field>
+                                                            <next>
+                                                              <block type="delay_custom" id="80" inline="false">
+                                                                <value name="DELAY_TIME">
+                                                                  <block type="math_number" id="81">
+                                                                    <field name="NUM">1000</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="mooncar_face_show" id="82">
+                                                                    <field name="FACE_SHOW">F8</field>
+                                                                    <next>
+                                                                      <block type="delay_custom" id="83" inline="false">
+                                                                        <value name="DELAY_TIME">
+                                                                          <block type="math_number" id="84">
+                                                                            <field name="NUM">1000</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="mooncar_face_show" id="85">
+                                                                            <field name="FACE_SHOW">F9</field>
+                                                                            <next>
+                                                                              <block type="delay_custom" id="86" inline="false">
+                                                                                <value name="DELAY_TIME">
+                                                                                  <block type="math_number" id="87">
+                                                                                    <field name="NUM">1000</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
