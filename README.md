@@ -33,3 +33,6 @@ https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt/releases/tag/3.0.312b
 * motor_control1 - 移動控制(方法1)
 * motor_control2 - 移動控制(方法2)
 
+<p align="center">
+  <img src="https://github.com/YisrealHung/LinkIt7697_Bit_for_BlocklyDuino/blob/master/mooncar.png" width="700"/>
+</p>
