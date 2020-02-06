@@ -5,6 +5,9 @@
 * 擴充的部份主要是針對MoonCar 與LinkIt7697 Bit 上有的感測器與驅動裝置。
 * 程式庫的部份，幾乎沿用BlocklyDuino 內建的程式庫，唯TCS34725是另外安裝的程式庫。在此將各功能整合並方便使用者操作而集合在一個欄位內。
 * 因WS2812 與OLED 在BlockylyDuino 已有適合的積木，故只類似超連結般放在欄位內方便使用，與從原來欄位使用是一樣的功能。
+<p align="center">
+  <img src="https://github.com/YisrealHung/LinkIt7697_Bit_for_BlocklyDuino/blob/master/bit.png" width="700"/>
+</p>
 
 # 使用說明
 * 首先下載並解壓縮BlocklyDuino V3 主程式，測試用版本是下載blocklyduino-3.0.312b-win64-ide.zip，連結如下：
