@@ -24,6 +24,7 @@ https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt/releases/tag/3.0.312b
 * Avoidance - 超音波距離感測器避障
 * IR_read - 紅外線遙控器訊號讀取
 * IR_send - 紅外線訊號發送
+* LinkIt_Remote - 手機APP LinkIt Remote 遙控
 * OLED - OLED螢幕顯示文字
 * RGB_LED - 魔幻LED使用方式
 * color_sensor1 - 顏色感測器讀取RGB顏色通道
