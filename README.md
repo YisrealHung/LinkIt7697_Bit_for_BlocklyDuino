@@ -14,6 +14,9 @@
 https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt/releases/tag/3.0.312b
 * 將本Github上的檔案全部下載到自己的電腦，點選綠底白字的Clone or download，再點選Download ZIP。
 * 將arduino-1.8.5 與package.nw 兩資料夾連同內部檔案直接複製到BlocklyDuino3 資料夾內並覆蓋檔案，即可在積木欄內看到MoonCar(登月小車)欄位。
+<p align="center">
+  <img src="https://github.com/YisrealHung/LinkIt7697_Bit_for_BlocklyDuino/blob/master/blockly.png" width="700"/>
+</p>
 
 # 各功能簡要範例說明
 範例程式在example資料夾，打開BlocklyDuino3 並按下右上角有個資料夾圖案(開啟)，找到想要開啟的範例程式即可打開。範例程式名稱對應的功能如下:
