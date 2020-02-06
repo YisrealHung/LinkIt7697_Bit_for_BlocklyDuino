@@ -13,5 +13,17 @@ https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt/releases/tag/3.0.312b
 * 將arduino-1.8.5 與package.nw 兩資料夾連同內部檔案直接複製到BlocklyDuino3 資料夾內並覆蓋檔案，即可在積木欄內看到MoonCar(登月小車)欄位。
 
 各功能簡要範例說明
-* 範例程式在example資料夾，打開BlocklyDuino3 並按下右上角有個資料夾圖案(開啟)，找到想要開啟的範例程式即可打開。
+* 範例程式在example資料夾，打開BlocklyDuino3 並按下右上角有個資料夾圖案(開啟)，找到想要開啟的範例程式即可打開。範例程式名稱對應的功能如下:
+AB_button - A按鈕與B按鈕的使用
+Avoidance - 超音波距離感測器避障
+IR_read - 紅外線遙控器訊號讀取
+IR_send - 紅外線訊號發送
+OLED - OLED螢幕顯示文字
+RGB_LED - 魔幻LED使用方式
+color_sensor1 - 顏色感測器讀取RGB顏色通道
+color_sensor2 - 顏色感測器紀錄顏色與比對
+face_OLED - OLED顯示表情(共9種)
+line_follower - 循線(黑色線)範例
+motor_control1 - 移動控制(方法1)
+motor_control2 - 移動控制(方法2)
 
