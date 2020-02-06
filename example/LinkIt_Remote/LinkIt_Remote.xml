@@ -1,0 +1,362 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="initializes_setup" id="1" x="80" y="40">
+    <statement name="CONTENT">
+      <block type="linkit_lremote" id="97" inline="false">
+        <field name="ORIENTATION">vertical</field>
+        <value name="DEVICEID">
+          <block type="text" id="98">
+            <field name="TEXT">LinkIt 7697</field>
+          </block>
+        </value>
+        <value name="COLUMN">
+          <block type="math_number" id="99">
+            <field name="NUM">3</field>
+          </block>
+        </value>
+        <value name="ROW">
+          <block type="math_number" id="100">
+            <field name="NUM">5</field>
+          </block>
+        </value>
+        <statement name="CONTENT">
+          <block type="linkit_lremote_setbuttonsquare" id="156" inline="true">
+            <field name="COLOUR">orange</field>
+            <value name="NAME">
+              <block type="text" id="157">
+                <field name="TEXT">button1</field>
+              </block>
+            </value>
+            <value name="CONTENT">
+              <block type="text" id="158">
+                <field name="TEXT">前進</field>
+              </block>
+            </value>
+            <value name="COLUMN">
+              <block type="math_number" id="159">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <value name="ROW">
+              <block type="math_number" id="160">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <value name="WIDTH">
+              <block type="math_number" id="161">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <value name="HEIGHT">
+              <block type="math_number" id="162">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <next>
+              <block type="linkit_lremote_setbuttonsquare" id="163" inline="true">
+                <field name="COLOUR">green</field>
+                <value name="NAME">
+                  <block type="text" id="164">
+                    <field name="TEXT">button2</field>
+                  </block>
+                </value>
+                <value name="CONTENT">
+                  <block type="text" id="165">
+                    <field name="TEXT">左轉</field>
+                  </block>
+                </value>
+                <value name="COLUMN">
+                  <block type="math_number" id="166">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="ROW">
+                  <block type="math_number" id="167">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+                <value name="WIDTH">
+                  <block type="math_number" id="168">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <value name="HEIGHT">
+                  <block type="math_number" id="169">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="linkit_lremote_setbuttonsquare" id="170" inline="true">
+                    <field name="COLOUR">pink</field>
+                    <value name="NAME">
+                      <block type="text" id="171">
+                        <field name="TEXT">button3</field>
+                      </block>
+                    </value>
+                    <value name="CONTENT">
+                      <block type="text" id="172">
+                        <field name="TEXT">右轉</field>
+                      </block>
+                    </value>
+                    <value name="COLUMN">
+                      <block type="math_number" id="173">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="ROW">
+                      <block type="math_number" id="174">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="WIDTH">
+                      <block type="math_number" id="175">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <value name="HEIGHT">
+                      <block type="math_number" id="176">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="linkit_lremote_setbuttonsquare" id="177" inline="true">
+                        <field name="COLOUR">yellow</field>
+                        <value name="NAME">
+                          <block type="text" id="178">
+                            <field name="TEXT">button4</field>
+                          </block>
+                        </value>
+                        <value name="CONTENT">
+                          <block type="text" id="179">
+                            <field name="TEXT">後退</field>
+                          </block>
+                        </value>
+                        <value name="COLUMN">
+                          <block type="math_number" id="180">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                        <value name="ROW">
+                          <block type="math_number" id="181">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                        <value name="WIDTH">
+                          <block type="math_number" id="182">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                        <value name="HEIGHT">
+                          <block type="math_number" id="183">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="mooncar_face_show" id="797">
+            <field name="FACE_SHOW">F6</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="initializes_loop" id="2">
+        <statement name="CONTENT">
+          <block type="linkit_lremote_process" id="336">
+            <next>
+              <block type="controls_if" id="405" inline="false">
+                <mutation elseif="3"></mutation>
+                <value name="IF0">
+                  <block type="linkit_lremote_is_written" id="392">
+                    <field name="NAME">button1</field>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_if" id="502" inline="false">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="logic_compare" id="508" inline="true">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="linkit_lremote_read_value" id="496">
+                            <field name="NAME">button1</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="552">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="mooncar_move_car" id="647" inline="true">
+                        <field name="STAT">FORWARD</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="648">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="mooncar_move_car" id="669" inline="true">
+                        <field name="STAT">STOP</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="670">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <value name="IF1">
+                  <block type="linkit_lremote_is_written" id="653">
+                    <field name="NAME">button2</field>
+                  </block>
+                </value>
+                <statement name="DO1">
+                  <block type="controls_if" id="671" inline="false">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="logic_compare" id="672" inline="true">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="linkit_lremote_read_value" id="673">
+                            <field name="NAME">button2</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="674">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="mooncar_move_car" id="675" inline="true">
+                        <field name="STAT">LEFT</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="676">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="mooncar_move_car" id="677" inline="true">
+                        <field name="STAT">STOP</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="678">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <value name="IF2">
+                  <block type="linkit_lremote_is_written" id="679">
+                    <field name="NAME">button3</field>
+                  </block>
+                </value>
+                <statement name="DO2">
+                  <block type="controls_if" id="680" inline="false">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="logic_compare" id="681" inline="true">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="linkit_lremote_read_value" id="682">
+                            <field name="NAME">button3</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="683">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="mooncar_move_car" id="684" inline="true">
+                        <field name="STAT">RIGHT</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="685">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="mooncar_move_car" id="686" inline="true">
+                        <field name="STAT">STOP</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="687">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <value name="IF3">
+                  <block type="linkit_lremote_is_written" id="694">
+                    <field name="NAME">button4</field>
+                  </block>
+                </value>
+                <statement name="DO3">
+                  <block type="controls_if" id="695" inline="false">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="logic_compare" id="696" inline="true">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="linkit_lremote_read_value" id="697">
+                            <field name="NAME">button4</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="698">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="mooncar_move_car" id="699" inline="true">
+                        <field name="STAT">BACKWARD</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="700">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="mooncar_move_car" id="701" inline="true">
+                        <field name="STAT">STOP</field>
+                        <value name="SPEED">
+                          <block type="math_number" id="702">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
